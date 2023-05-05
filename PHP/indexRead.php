@@ -11,7 +11,7 @@ include "config/read.php";
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,800;1,900&family=Teko:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="MainProgStyle.css">
     <link rel="icon" href="pasay-logo-1 (4).png" type="image/png">
     <title>SC List</title>
 </head>
@@ -22,7 +22,7 @@ include "config/read.php";
         <nav>
             <div class="brngyLbl">BARANGAY 48, PASAY CITY</div>
                 <ul class="navItems">
-                    <li id = "db"><a href="index.php">DASHBOARD</li>
+                    <li id = "db"><a href="indexDashBoard.php">DASHBOARD</li>
                     <li id = "af"><a href="indexApplicForm.php">ADD REC</li>
                     <li id = "sc"><a href="indexRead.php">SENIOR CITIZENS</li>
                 </ul>
